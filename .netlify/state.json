@@ -1,0 +1,21 @@
+{
+	"siteId": "bda1b0d9-040b-46e9-8126-ede2dc38f99b",
+	"geolocation": {
+		"data": {
+			"city": "Amherst",
+			"country": {
+				"code": "US",
+				"name": "United States"
+			},
+			"subdivision": {
+				"code": "MA",
+				"name": "Massachusetts"
+			},
+			"timezone": "America/New_York",
+			"latitude": 42.3654,
+			"longitude": -72.4671,
+			"postalCode": "01002"
+		},
+		"timestamp": 1774653488912
+	}
+}
