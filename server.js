@@ -2,9 +2,7 @@ const express = require('express');
 const { Connection, Request } = require('tedious');
 const { AzureOpenAI } = require('openai');
 const cors = require('cors');
-if (process.env.NODE_ENV !== 'production') {
-  require('dotenv').config();
-}
+require('dotenv').config();
 
 const app = express();
 app.use(cors());
@@ -122,6 +120,7 @@ STRICT RULES YOU MUST ALWAYS FOLLOW:
   }
 });
 
-app.listen(3001, () => {
-  console.log('Server is running! Go to http://localhost:3001');
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
