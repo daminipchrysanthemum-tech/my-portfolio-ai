@@ -94,8 +94,12 @@
 
 <script>
   // ⬇️ Change this to your deployed backend URL later
-  const API = 'https://my-portfolio-ai-production.up.railway.app/api/chat';
-  let history = [];
+ const API = '/api/chat'; // Updated for Netlify
+let history = [];       // Keep this for session memory
+
+async function sendMessage() {
+  // Your logic to push to history and fetch from API
+}
 
   function ask(q) { document.getElementById('inp').value = q; send(); }
 
