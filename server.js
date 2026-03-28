@@ -120,5 +120,6 @@ STRICT RULES YOU MUST ALWAYS FOLLOW:
   }
 });
 
-const serverless = require('serverless-http');
-module.exports.handler = serverless(app);
+app.listen(3001, () => {
+  console.log('Server is running! Go to http://localhost:3001');
+});
