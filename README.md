@@ -65,9 +65,3 @@ Connecting Azure SQL to the Node.js backend using the `tedious` package — and 
 
 ---
 
-## What's Next
-- Migrating the backend to Azure Container Apps so the full stack lives on Azure
-- Adding voice input for the chat interface
-- Continuing to build and document everything publicly
-
----
