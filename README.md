@@ -5,7 +5,7 @@
 
 
 
-📖 Overview
+Overview
 An AI-powered achievement showcase where visitors can ask questions about my background and get real answers pulled from a live database of 252 of my achievements. Ask it about my leadership experience, case competitions, volunteering history, or awards — it knows all of it.
 
 ---
