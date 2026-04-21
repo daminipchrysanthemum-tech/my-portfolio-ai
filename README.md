@@ -11,6 +11,7 @@ An AI-powered achievement showcase where visitors can ask questions about my bac
 ---
 
 ✨ Features
+
 - Six quick-question chips — Certifications, Competitions, Organizations, Volunteering, Awards, and Full Summary
 - Free text input for custom questions
 - AI intentionally scoped only to answer questions about my achievements — redirects any off-topic questions
@@ -33,6 +34,7 @@ An AI-powered achievement showcase where visitors can ask questions about my bac
 ---
 
 🏗️ Architecture
+
 The frontend is hosted on Netlify and connected to GitHub for automatic deployments — every push updates the site instantly. The backend runs on Render as a Node.js Express server, handling API calls to Azure OpenAI and queries to Azure SQL. The database stores 252 achievements across four columns — ID, category, title, and description — which map directly to the six chips in the interface.
 
 ---
@@ -51,6 +53,7 @@ Rather than entering 252 achievements manually, I wrote a script to populate the
 ---
 
 🚧 The Deployment Problem Nobody Warns You About
+
 My original plan was to deploy the backend to Azure App Service and keep everything on Azure. It failed immediately — I had hit the subscription quota limit on the free plan with no warning.
 
 I tried the railway next. It required a paid plan.
