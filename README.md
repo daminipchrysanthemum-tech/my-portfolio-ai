@@ -1,12 +1,13 @@
 # AI-Powered Achievement Showcase
 
+📖 Overview
+An AI-powered achievement showcase where visitors can ask questions about my background and get real answers pulled from a live database of 252 of my achievements. Ask it about my leadership experience, case competitions, volunteering history, or awards — it knows all of it.
+
 
 <img width="884" height="861" alt="AI Portfolio App" src="https://github.com/user-attachments/assets/165c52f3-4ae1-43ce-8212-ed11d25d5837" />
 
 
 
-Overview
-An AI-powered achievement showcase where visitors can ask questions about my background and get real answers pulled from a live database of 252 of my achievements. Ask it about my leadership experience, case competitions, volunteering history, or awards — it knows all of it.
 
 ---
 
