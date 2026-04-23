@@ -21,7 +21,7 @@ An AI-powered achievement showcase where visitors can ask questions about my bac
 
 ---
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
 
 | Layer | Technology |
 |-------|------------|
@@ -34,13 +34,13 @@ An AI-powered achievement showcase where visitors can ask questions about my bac
 
 ---
 
-🏗️ Architecture
+## 🏗️ Architecture
 
 The frontend is hosted on Netlify and connected to GitHub for automatic deployments — every push updates the site instantly. The backend runs on Render as a Node.js Express server, handling API calls to Azure OpenAI and queries to Azure SQL. The database stores 252 achievements across four columns — ID, category, title, and description — which map directly to the six chips in the interface.
 
 ---
 
-🧠 Key Technical Decisions
+## 🧠 Key Technical Decisions
 
 **Choosing Node.js over Python**
 Python is my strongest language, but I deliberately chose Node.js for this project. I had learned Java in college and wanted to push myself into something unfamiliar. Learning a new language by building something real is completely different from following a tutorial — three days later, I had working Node.js code.
@@ -53,7 +53,7 @@ Rather than entering 252 achievements manually, I wrote a script to populate the
 
 ---
 
-🚧 The Deployment Problem Nobody Warns You About
+## 🚧 The Deployment Problem Nobody Warns You About
 
 My original plan was to deploy the backend to Azure App Service and keep everything on Azure. It failed immediately — I had hit the subscription quota limit on the free plan with no warning.
 
