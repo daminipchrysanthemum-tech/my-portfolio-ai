@@ -11,7 +11,7 @@ An AI-powered achievement showcase where visitors can ask questions about my bac
 
 ---
 
-✨ Features
+## ✨ Features
 
 - Six quick-question chips — Certifications, Competitions, Organizations, Volunteering, Awards, and Full Summary
 - Free text input for custom questions
