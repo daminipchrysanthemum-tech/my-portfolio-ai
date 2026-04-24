@@ -62,4 +62,25 @@ After about an hour of research, I found Render — free tier, straightforward N
 
 The final stack ended up split across four platforms instead of one, but it works, it costs nothing, and it taught me something important — always have a deployment backup plan, especially on free-tier accounts.
 
+---
+
+## 📁 Repository Structure
+
+```
+ai-achievement-showcase/
+├── frontend/
+│   └── index.html              # UI with chips, free text input, and response display
+├── backend/
+│   ├── server.js               # Express server — handles OpenAI and Azure SQL calls
+│   ├── db.js                   # Azure SQL connection and query logic
+│   ├── openai.js               # Azure OpenAI GPT-4o-mini integration
+│   └── .env.example            # Template for the 7 required environment variables
+├── scripts/
+│   └── populate_db.js          # Script used to bulk-insert 252 achievements into Azure SQL
+├── assets/
+│   └── preview.png             # App screenshot (the one in your README)
+└── README.md
+
+```
+
 
